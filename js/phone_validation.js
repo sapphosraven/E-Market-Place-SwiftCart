@@ -1,18 +1,5 @@
-function phonenumber(inputtxt)
-{
-
-  var phoneno = /^\(?([0]{1})\)?[-. ]?([1]{1})[-. ]?([5-9]{1})[-. ]?([0-9]{8})$/;
-
-    if(phoneno.test(inputtxt.phone.value))
-        {
-
-      return true;
-        }
-      else
-        {
-        alert("Enter a valid phone number.");
-        return false;
-        }
+function phonenumber(inputtxt) {
+  return true;
 }
 
 
