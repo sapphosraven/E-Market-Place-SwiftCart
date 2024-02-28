@@ -19,7 +19,7 @@
 }
 .post_show{
     width: 45%;
-    /*border: 1px solid #F8A036;*/
+    /*border: 1px solid #941EF7;*/
     box-shadow: 2px 2px 5px orange;
     padding:10px;
     border-radius: 10px;
@@ -77,7 +77,7 @@
 .faq h1{
     font-size: 55px;
     font-family: Courier;
-    color: #F8A036;
+    color: #941EF7;
 }
 
 .faq label{
@@ -319,7 +319,7 @@ font-family: serif;
 }
 
 .member_plan button{
-    background-color: #F7941E;
+    background-color: #941ef7;
     border: none;
     border-radius: 15px;
     color: white;
@@ -382,7 +382,7 @@ font-family: serif;
 }
 
 .check_out_item_continue{
-    background-color: #F7941E;
+    background-color: #941ef7;
     font-size: 17px;
     width: 20%;
     color: white;
@@ -402,7 +402,7 @@ font-family: serif;
 }
 
 .check_out_item_proceed button{
-	background-color: #F7941E;
+	background-color: #941ef7;
 	font-size: 17px;
 	float: right;
 	width: 50%;
