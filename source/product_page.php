@@ -81,7 +81,7 @@ if(isset($_POST['submit'])){
                  <label ><b>Size </b></label><br>
          <select name="productSize" style="border: 1px solid gray;border-radius: 10px;cursor: pointer;width: 20%;height: 30px" required>
                     <option name="size" selected disabled>Select Size</option>
-                    <option name="size" value="Short">S</option>
+                    <option name="size" value="Small">S</option>
                     <option name="size" value="Medium">M</option>
                     <option name="size" value="Large">L</option>
                     <option name="size" value="Extra Large">XL</option>
@@ -89,9 +89,9 @@ if(isset($_POST['submit'])){
                  <label for="quantity">Quantity </label><br>
                  <input type="number" style="width: 20%;height: 30px;border-radius: 10px;border: 1px solid gray" name="pQuantity" value="1">
 
-                 <h4 data-currency-iso="BDT" style="margin-top: 5%"><b>Price:</b> ৳ <?= $row['price']; ?></h4>
+                 <h4 data-currency-iso="BDT" style="margin-top: 5%"><b>Price:</b> Rs. <?= $row['price']; ?></h4>
 
-                 <button name="submit" class="btn" style="background-color: #222222;color: #F79622;font-size: 20px;float: right;">Add To Cart </button><br><br>
+                 <button name="submit" class="btn" style="background-color: #222222;color: #B63FF9;font-size: 20px;float: right;">Add To Cart </button><br><br>
             </form>
 
             <span style="color: red; font-size: 18px;">

@@ -33,7 +33,7 @@ body {
 
 .sidenav a:hover {
   
-    color: #F8A036;
+    color: #941EF7;
 }
 
 .sidenav .closebtn {
@@ -54,7 +54,7 @@ body {
 <body>
 
 <div id="mySidenav" class="sidenav">
-  <a style="color: #F8A036" href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a style="color: #941EF7" href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   <a href="about.php">About</a>
   <a href="allC.php">Category</a>
   <a href="faq.php">FAQ</a>
@@ -63,7 +63,7 @@ body {
 </div>
 
 
-<span style="position: fixed;top: 50px;left: 0;font-size:30px;cursor:pointer;color: #F8A036;" onclick="openNav()">&#9776;</span>
+<span style="position: fixed;top: 50px;left: 0;font-size:30px;cursor:pointer;color: #941EF7;" onclick="openNav()">&#9776;</span>
 
 <script>
 function openNav() {

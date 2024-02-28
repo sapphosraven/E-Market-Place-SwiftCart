@@ -107,7 +107,7 @@ session_start();
 		 <img class="profile_image" id="img-upload" onchange="readURL(this)" src="../images/upload.png"><br>
 		 <input style="width: 100%;" type="file" id="imgInp" name="sellerPic" class="filestyle" data-btnClass="btn btn-primary" accept=".jpg,.png" required><br>
 
-		 <label style="font-size: 25px">Scan of NID/Other valid document</label><br>
+		 <label style="font-size: 25px">Scan of CNIC/Other valid document</label><br>
 		 <img class="document_image" id="img-upload2" onchange="readURL2(this)" src="../images/upload2.png">
 		 <input style="width: 100%;" type="file" accept=".jpg,.png" id="imgInp2" name="sellerDoc" class="filestyle" data-btnClass="btn btn-primary" required><br>	
 		</div>

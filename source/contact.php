@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Contact Ghuri</title>
+    <title>Contact SwiftCart</title>
             <link rel="stylesheet" href="../css/templatemo-style.css">
 
 </head>
@@ -20,7 +20,7 @@
     		<div class="container">
     			<div class="row">
     				<div class="col-md-12">
-        <h2 align="center"  style="font-size: 55px;color: white">CONTACT <span style="color: #28A6E8;      font-family: 'Open Sans', sans-serif;">Ghuri</span></h2>
+        <h2 align="center"  style="font-size: 55px;color: white">CONTACT <span style="color: #28A6E8;      font-family: 'Open Sans', sans-serif;">SwiftCart</span></h2>
     				</div>
     				<div class="col-md-6 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-offset="50" data-wow-delay="0.9s">
     					<form action="../login-system/mail.php" method="post">
@@ -44,16 +44,11 @@
     						<p style="font-weight: bold;font-size: 20px;color: #00FFFF;text-align: right;">Any Queston ?</p>
     						<p class="address-content">Share Your Suggestions</p>
     						<label style="color: white;font-size: 20px"><b> OUR ADDRESS</b> </label>
-    						<p style="color: white"><i class="fa fa-phone"></i> <a style="color: white" href="tel:+8801718339135">+88 01711 154313</a></p>
-    						<p style="color: white"><i class="fa fa-envelope-o"></i> msifat5@gmail.com</p>
-    						<p style="color: white"><i class="fa fa-map-marker"></i> Sukkur Chamber, 707 D.T. Road, Dewanhat, Chittagong, Bangladesh</p>
+    						<p style="color: white"><i class="fa fa-phone"></i> <a style="color: white" href="tel:+923398887746">+92 339 8887746, +92 313 5247297, +92 332 8639350</a></p>
+    						<p style="color: white; font-size: 13px"><i class="fa fa-envelope-o"></i> muhammadzik124@gmail.com, mahabaig7@gmaill.com, shahlizaahmed27@gmail.com</p>
+    						<p style="color: white"><i class="fa fa-map-marker"></i> CR-22, RIMMS, NUST, H-12, Islamabad, Pakistan</p>
     					</address>
-    					<ul class="social-icon">
-    						<li><h4 style="color: white">WE ARE SOCIAL</h4></li>
-    						<li><a href="#" class="fa fa-facebook"></a></li>
-    						<li><a href="#" class="fa fa-twitter"></a></li>
-    						<li><a href="https://www.youtube.com/channel/UC4yzoGuKkCL_8FzI-B-x83A" class="fa fa-youtube"></a></li>
-    					</ul>
+    					
     				</div>
     			</div>
     		</div>

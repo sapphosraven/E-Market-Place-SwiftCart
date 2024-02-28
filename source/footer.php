@@ -11,7 +11,7 @@
     <footer>
         <div>
             <div class="footer">
-                <footer>Copyright &copy; <?= date('Y'); ?> by Ghuri.com!</footer>
+                <footer>Copyright &copy; <?= date('Y'); ?> by SwiftCart.com!</footer>
 
             </div>
         </div>

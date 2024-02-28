@@ -51,7 +51,7 @@ if (isset($_GET['logout']) && $_GET['logout'] == 1) {
 <nav class="navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="img" href="index.php"><img style="height: 50px;width: 80px;" src="../images/logo.png"> </a>
+      <a class="img" href="index.php"><img style="height: 50px;width: 65px;" src="../images/logo.png"> </a>
     </div>
  
     <ul class="nav navbar-nav navbar-right">

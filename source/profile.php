@@ -90,8 +90,8 @@ else {
                      <img style="height: 50%;width: 200px;border-radius: 50%;" src="../images/car.jpg">
                 <?php endif; ?>
 
-                <?php if (($_SESSION['account_type'])== 'Business') :?>
-                    <?php echo "<img style=\"width:200px;height:50%;border-radius: 50%;\" src='../seller/sellerPic/".$user['seller_photo']."'>"; ?>
+                <?php if ($_SESSION['account_type'] == 'Business' && isset($user['seller_photo'])) : ?>
+                    <?php echo "<img style=\"width:200px;height:50%;border-radius: 50%;\" src='../seller/sellerPic/" . $user['seller_photo'] . "'>"; ?>
                 <?php endif; ?>
 
 

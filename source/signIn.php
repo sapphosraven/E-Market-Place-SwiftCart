@@ -48,8 +48,8 @@
 
     <span class="forgot_psw"><a href="forgot_pre.php" style="color: red;"> Forgot your password?</a></span>
   
-    <h3><b> New to Ghuri?</b></h3>
-    <button type="button" style="padding:5px;"><a href="signUp.php" style="color: white">Create your Ghuri Account</a></button>
+    <h3><b> New to SwiftCart?</b></h3>
+    <button type="button" style="padding:5px;"><a href="signUp.php" style="color: white">Create your SwiftCart Account</a></button>
   </div>
 
 </form>

@@ -7,7 +7,7 @@ if(isset($_SESSION['logged_in']) && $_SESSION['logged_in']==1){
     $email = $_SESSION['email'];
 }
 
-date_default_timezone_set("Asia/Dhaka");
+date_default_timezone_set("Asia/Karachi");
     $time = date("h:i:sa");
     //$date =  date("d/m/y");
     $day =  date("d");
@@ -83,7 +83,7 @@ $productInfo = $result2->fetch_assoc();
     <div class="form">
         <h1>Success!</h1>
         <p style="font-size: 20px;">
-           Your order on Ghuri.com is complete.<br>
+           Your order on SwiftCart.com is complete.<br>
            Your order will be sent very soon.<br>
            For any further information, please contact out customer support.<br>
            Thanks for being with us.

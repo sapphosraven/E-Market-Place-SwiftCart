@@ -41,7 +41,7 @@
     <input type="email" placeholder="Enter Email" name="email" required><br>
 
     <label><b>Mobile Number</b></label><br>
-    <input type="number" placeholder="Mobile Number" name="phone" required><br>
+    <input type="text" name="phone" placeholder = "Mobile Number" id="phone" required><br>
 
     <label for="psw"><b>Password</b></label>
     <input type="password" placeholder="Enter Password" id="psw" name="password"  required>

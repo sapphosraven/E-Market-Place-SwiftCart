@@ -60,7 +60,7 @@ else{
 /* Three column layout */
 
 .b{
-  color: #F8A036;
+  color: #941EF7;
 }
 
 .side {
@@ -251,7 +251,7 @@ box-shadow: 2px 2px 20px;
           <div class="container">
             <h4><b><?= $row['productName']; ?></b></h4>
             <!-- <p><?= $row['description']; ?></p> -->
-              <h4>price: <?= $row['price']; ?>tk </h4>
+              <h4>price: <?= $row['price']; ?>PKR </h4>
               <a href="add_product.php?edit=<?= $row['id']; ?>" class='glyphicon glyphicon-pencil btn btn-success'>Edit</a>
               <a href="../seller/storeProductList.php?del=<?= $row['id']; ?>" class='glyphicon glyphicon-remove btn btn-danger' onclick="return confirm_delete()">Delete</a>
           </div>

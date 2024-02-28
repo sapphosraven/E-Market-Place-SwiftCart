@@ -72,7 +72,7 @@ if(isset($_GET['pCat'])){
     <p style="font-size: 10px;"><?= $row['shopName']; ?></p>
     </div>
      <p style="width: 220px"><b><a href=""><?= $row['productName']; ?></a></b></p>
-     <span data-currency-iso="BDT">৳</span> <?= $row['price']; ?><br>
+     <span data-currency-iso="BDT">Rs.</span> <?= $row['price']; ?><br>
 
  
 <div class="star-ratings-css">

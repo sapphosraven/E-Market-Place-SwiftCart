@@ -66,7 +66,7 @@ if(isset($_GET['edit'])){
   <?php include "sidebar.php" ?>
 
   <div align="center">
-    <h1> <b style="color: #F8A036"><?php echo " ".$store_name;?></b> Store </h1>
+    <h1> <b style="color: #941EF7"><?php echo " ".$store_name;?></b> Store </h1>
     <h4>Add Your Product</h4>
   </div>
   <form action="../seller/storeProductList.php" method="post" enctype="multipart/form-data">
@@ -128,7 +128,7 @@ if(isset($_GET['edit'])){
 
 
   <h4 style="margin-left: 10%"><b>Price</b></h4>
-  <input type="number" name="price" value="<?= $price; ?>" style="height: 30px;border-radius: 10px ;border: 1px solid gray;width: 10%;margin-left: 10%;">TK
+  <input type="number" name="price" value="<?= $price; ?>" style="height: 30px;border-radius: 10px ;border: 1px solid gray;width: 10%;margin-left: 10%;">PKR
 
 
   <h4 style="margin-left: 10%"><b>Quantity</b></h4>

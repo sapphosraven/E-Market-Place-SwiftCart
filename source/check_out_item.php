@@ -105,8 +105,8 @@ $result = $mysqli->query("SELECT * FROM cart WHERE sId='$sId'");
                     <input type="submit" name="submit" class="btn btn-primary" value="Update">
                 </form>
 			</td>
-			<td>৳ <?= $cartInfo['price']; ?></td>
-			<td>৳ <?= $total = ($cartInfo['price'] * $cartInfo['customerQty']); ?></td>
+			<td>Rs. <?= $cartInfo['price']; ?></td>
+			<td>Rs. <?= $total = ($cartInfo['price'] * $cartInfo['customerQty']); ?></td>
             <td><a href="?del=<?= $cartInfo['cartId'];  ?>"  onclick='return confirm_delete()' class="btn btn-danger">X</a></td>
 		</tr>
        <?php $sum = ($sum + $total); ?>
@@ -119,9 +119,9 @@ $result = $mysqli->query("SELECT * FROM cart WHERE sId='$sId'");
 
 	<div class="check_out_item_proceed">
 		<p style="font-size: 20px;">
-			Item Total : ৳ <?= $sum; ?><br>
-			Shipping&nbsp;&nbsp;&nbsp;&nbsp;: ৳ <?= $shippingCost=100; ?><br>
-			Total &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: ৳ <?= $grandTotal = ($sum + $shippingCost); ?>
+			Item Total : Rs. <?= $sum; ?><br>
+			Shipping&nbsp;&nbsp;&nbsp;&nbsp;: Rs. <?= $shippingCost=100; ?><br>
+			Total &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Rs. <?= $grandTotal = ($sum + $shippingCost); ?>
 
 			<a href="payment.php"><button <?php  if ($empty==''){ ?> disabled <?php   } ?> class="btn">Proceed to Checkout</button></a>
 		</p>

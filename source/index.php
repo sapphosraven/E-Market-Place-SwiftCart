@@ -8,9 +8,12 @@ if(isset($_SESSION['logged_in']) && $_SESSION['logged_in']==1){
 $email = $_SESSION['email'];
 
 $result = $mysqli->query("SELECT * FROM store WHERE email='$email'");
-
-$user = $result->fetch_assoc();
-    $store_name = $user['store_name'];
+if ($result) {
+    $user = $result->fetch_assoc();
+    if ($user) {
+        $store_name = $user['store_name'];
+    } 
+}
 }
 $results = mysqli_query($mysqli, "SELECT * FROM productlist");
 
@@ -148,7 +151,7 @@ include "sidebar.php";
     <p style="font-size: 10px;"><?= $row['shopName']; ?></p>
     </div>
      <p style="width: 220px"><b><a href="product_page.php?pId=<?= $row['id']; ?>"><?= $row['productName']; ?></a></b></p>
-     <span data-currency-iso="BDT">৳</span> <?= $row['price']; ?><br>
+     <span data-currency-iso="BDT">Rs.</span> <?= $row['price']; ?><br>
 
  
 <div class="star-ratings-css">
@@ -181,7 +184,7 @@ include "sidebar.php";
     <p style="font-size: 10px;"><?= $row['shopName']; ?></p>
     </div>
      <p style="width: 220px"><b><a href="product_page.php?pId=<?= $row['id']; ?>"><?= $row['productName']; ?></a></b></p>
-     <span data-currency-iso="BDT">৳</span> <?= $row['price']; ?><br>
+     <span data-currency-iso="BDT">Rs.</span> <?= $row['price']; ?><br>
 
  
 <div class="star-ratings-css">
@@ -201,7 +204,7 @@ include "sidebar.php";
 <!-- Product Information End -->
 
 <div align="center">
-<h3><b>What is Ghuri.com</b></h3>
+<h3><b>What is SwiftCart.com</b></h3>
 <p><a style="color: darkblue" href="about.php">read more...</a></p>
 </div>
 

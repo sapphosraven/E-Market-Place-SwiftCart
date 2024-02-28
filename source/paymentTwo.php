@@ -15,7 +15,7 @@ if(isset($_GET["submit"])){
     $delId = $_SESSION['delId'];
     $name = $_SESSION['name'];
     $message = 'Hello  ' .$name.',
-    Thank you for shopping on ghuri.com Your order  '. $delId.'  has been placed.';
+    Thank you for shopping on SwiftCart.com Your order  '. $delId.'  has been placed.';
     $headers = "From: ".$from . "\r\n" . "CC: ".$from;
     mail($to,$subject,$message,$headers);
 
@@ -97,8 +97,8 @@ $deliResult = $result2->fetch_assoc();
                     </p>
                 </td>
                 <td><?= $cartInfo['customerQty']; ?></td>
-                <td>৳ <?= $cartInfo['price']; ?></td>
-                <td>৳ <?= $total = ($cartInfo['price'] * $cartInfo['customerQty']); ?></td>
+                <td>Rs.  <?= $cartInfo['price']; ?></td>
+                <td>Rs.  <?= $total = ($cartInfo['price'] * $cartInfo['customerQty']); ?></td>
 
             </tr>
             <?php $sum = ($sum + $total); ?>
@@ -108,9 +108,9 @@ $deliResult = $result2->fetch_assoc();
 
 <div class="check_out_item_proceed">
     <p style="font-size: 20px;">
-        Item Total : ৳ <?= $sum; ?><br>
-        Shipping&nbsp;&nbsp;&nbsp;&nbsp;: ৳ <?= $shippingCost=100; ?><br>
-        Total &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: ৳ <?= $grandTotal = ($sum + $shippingCost); ?>
+        Item Total : Rs.  <?= $sum; ?><br>
+        Shipping&nbsp;&nbsp;&nbsp;&nbsp;: Rs.  <?= $shippingCost=100; ?><br>
+        Total &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Rs.  <?= $grandTotal = ($sum + $shippingCost); ?>
 
         <a href="?submit"><button class="btn" type="submit">Confirm order</button></a>
     </p>
@@ -123,7 +123,7 @@ $deliResult = $result2->fetch_assoc();
         <b>Address: <?= $deliResult['deliAddress']; ?></b>   <br>
         <b>Phone: <?= $deliResult['phone']; ?></b>
     </p>
-    <a href="?del=<?= $sId; ?>" class="btn btn-danger" style="background-color: #F8A036;border: none">Add new address</a>
+    <a href="?del=<?= $sId; ?>" class="btn btn-danger" style="background-color: #941EF7;border: none">Add new address</a>
 </div>
 
 

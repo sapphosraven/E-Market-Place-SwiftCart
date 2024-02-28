@@ -36,11 +36,11 @@
 
 <div class="about_page">
   <div>
-  <img src="../img/about.gif">
+  <img src="../img/about.png">
 </div>
 
 <!-- About part Start-->
-<h2 align="center" style="font-size: 30px;border-bottom: 1px solid gray;margin: 0px 8% 0px;"><b>About Ghuri</b></h2>
+<h2 align="center" style="font-size: 30px;border-bottom: 1px solid gray;margin: 0px 8% 0px;"><b>About SwiftCart</b></h2>
 <p class="container"> Wthin our markets, millions of people around the world connect to make, sell & buy unique goods. We also offer a wide range of Seller Services and tools that help creative entrepreneurs start, manage and scale their businesses. Our mission is to keep commerce Human.<br><br>
 	Within our markets, millions of people around the world connect to make, sell and buy unique goods. We also offer a wide range of Seller Services and tools that help creative entrepreneurs start, manage and scale their businesses. Our mission is to keep commerce Human.
 </p>
