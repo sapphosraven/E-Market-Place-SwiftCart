@@ -4,8 +4,8 @@
 $host = "localhost";
 $user = "root";
 $pass = "";
-$db = "e-market_place";
+$db = "new_e_market_place";
 
-$mysqli = new mysqli($host, $user, $pass, $db) or die($mysqli->error);
+$mysqli = new mysqli($host, $user, $pass, $db, 4306) or die($mysqli->error);
 
 ?>
