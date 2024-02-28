@@ -52,9 +52,9 @@ else{
 
 
 			if ($result2->num_rows > 0){
-				$query = "UPDATE sellerinfo SET address='$address',category='$category',postal_code='$postal_code',seller_photo='$fileName1',seller_nid='$fileName2' WHERE email='$email'";
+				$query = "UPDATE sellerinfo SET address='$address',category='$category',postal_code='$postal_code',seller_photo='$fileName1',seller_cnic='$fileName2' WHERE email='$email'";
 			}else{
-			$query = " INSERT INTO `sellerinfo` (`email`,`address`,`category`,`postal_code`,`seller_photo`,`seller_nid`) VALUES ('$email','$address','$category','$postal_code','$fileName1','$fileName2')";
+			$query = " INSERT INTO `sellerinfo` (`email`,`address`,`category`,`postal_code`,`seller_photo`,`seller_cnic`) VALUES ('$email','$address','$category','$postal_code','$fileName1','$fileName2')";
 			}
 
 
